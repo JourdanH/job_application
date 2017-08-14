@@ -1,0 +1,100 @@
+body {
+  background-color: #e1edf2;
+}
+
+p {
+  color: gray;
+}
+
+input::placeholder {
+  color: #c9c9c9;
+
+}
+
+input {
+  border: none;
+  color: #c9c9c9;
+}
+
+select {
+  border:none;
+  color: #c9c9c9;
+  background-color: white;
+}
+
+button {
+  background-color: #92bd64;
+  width:33%;
+  height:50%;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px #c9c9c9;
+  border-radius:5px;
+
+}
+
+.job_application {
+
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  font-family: sans-serif;
+  color: gray;
+  flex-wrap:wrap;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+}
+
+.first {
+  display: flex;
+  width: 100%;
+  height: 80px;
+
+}
+
+.second {
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+.third {
+  display: flex;
+  width: 100%;
+  height: 80px;
+
+}
+
+.fourth {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c9c9c9;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+    width: 50%;
+
+}
+
+.row2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c9c9c9;
+  padding: 5px;
+  width:33%;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c9c9c9;
+  padding: 5px;
+  width: 25%;
+}
