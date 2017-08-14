@@ -1,5 +1,8 @@
 body {
   background-color: #e1edf2;
+  display: flex;
+  justify-content: center;
+  
 }
 
 p {
@@ -31,6 +34,10 @@ button {
   text-shadow: 1px 1px #c9c9c9;
   border-radius:5px;
 
+}
+
+button:hover {
+  background-color: #617d42;
 }
 
 .job_application {
